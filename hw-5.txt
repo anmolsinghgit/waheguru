@@ -1,0 +1,32 @@
+
+2. Use the PROLOG and Expert Systems Shells as examples to discuss the advantages of separating "inference engine" and "knowledge base."
+Answer: Advantages of seperating inference engine and knowledge base in PROLOG and expert system shells is the explanation capability, sysmbolic reasoning and information processing. Although even a most intelligent system can make mistakes which means these systems are allowed to make mistakes as humans do. Therefore, its not reasonable to fully rely on these systems. Secondly, programs are mixtures of knowledge and inference of the algorithms that it rely upon. It becomes very complex to understand and analyze the program. Therefore its advantageous to both inference engine and knowledge base in prolog and expert systems.
+ 
+
+3. Describe the basic ideas of fuzzy logic.
+Answer: Basically fuzzy logic is the form of reasoning that recognizes logical statements into more broad categories. For example logical statements are either true or false but fuzzy logic states that these binary statements can be almost true, most likely true, a little true etc. Which means fuzzy logic can range between almost true and very unlikely true.
+
+It uses the fact that how humans make decision not just binary but between two values and it processes these decsions much faster than humans. Fuzzy logic following core ideas:
+It takes large amount of measurements and analyse them based on ceratin facts and rules.
+Processed all training sets according to if else statements that are expressed using simple logic
+Weight the results from every set based on mathematical equations and make it into one output. Its either 0 or 1.  
+
+4. Describe the basic ideas of MYCIN's Certainty Factor Algebra.  In particular, discuss probabilistic interpretation of CF.
+Answer: Basically MYCIN certainty factor is a type of algebra in expert system which says that several rules can be used to infer some learning. For instance, if there is certainty of 0.5 for a attribute A and 0.9 for attribute B then the conclusion attribute C of A and B is with certainty 0.95. 
+
+Using Probability interpretation of certainty factor we can say that 
+
+References: https://en.wikipedia.org/wiki/Mycin
+
+Probalictic interpretation of CF is that
+
+5. Describe ideas of naive Bayesian classification.
+Answer: In naive Bayesian classification one of the major assumption is that classes  are independent of each other. In other words, values of the individual training set is not dependent on each other. It classify data by analyzing the maximum value of a function that is calculated using Bayes theorem of probability.
+
+P( Xj | Ci )P(Ci) 
+
+i is the index of the class.
+  
+Basically, if there is a vector X= (x1, x2, x2, ... xn) then naive Bayesian classifier maximize probability of the function by selecting from the probabilities of the each class. Probability of each class is calulated using formula 
+
+p(Ci) = ti / n  , where ti is the number of training set and n is the total number of sets.
